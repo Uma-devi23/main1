@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+#a{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    background-image: linear-gradient(90deg,rgb(255, 166, 0),rgb(1, 1, 255),rgb(255, 8, 8),rgb(255, 166, 0));
+    background-position: 1000px;
+    background-size: 1200px;
+    animation-iteration-count: infinite;
+    animation-name: log;
+    animation-duration: 2s;
+    filter: blur(40px);
+    transition-duration: 5s;
+}
+@keyframes log {
+    from{
+        background-position: 0px;
+    }
+}
+#b{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.285);
+    position: absolute;
+    top: 14%;
+    left: 37%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    background-clip: text;
+    -webkit-background-clip: text;
+    left: 35%;
+    top: 10%;
+    letter-spacing: 5px;
+}
+#input1{
+    font-size: 20px;
+    width: 400px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+}
+#input2{
+    font-size: 20px;
+    width: 400px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+}
+#input3{
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+}
